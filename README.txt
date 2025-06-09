@@ -1,1 +1,0 @@
-Otvorite index.html, popunite formu i kliknite 'Generiši'.
