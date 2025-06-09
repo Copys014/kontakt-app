@@ -1,0 +1,1 @@
+document.getElementById('app').innerHTML = 'Ovde ide forma i pregled kontakta';
