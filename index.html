@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Copy S Demo Forma</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <h1>Copy S - Unos Klijenta</h1>
+  <form id="clientForm">
+    <input type="text" placeholder="Ime firme" id="firma" required />
+    <input type="tel" placeholder="Telefon" id="telefon" />
+    <input type="email" placeholder="Email" id="email" />
+    <input type="url" placeholder="Facebook" id="facebook" />
+    <input type="url" placeholder="Instagram" id="instagram" />
+    <input type="url" placeholder="Web sajt" id="web" />
+    <label>Boja dugmića:
+      <select id="boja">
+        <option value="#ff6600">Narandžasta</option>
+        <option value="#007bff">Plava</option>
+        <option value="#28a745">Zelena</option>
+        <option value="#dc3545">Crvena</option>
+        <option value="#6f42c1">Ljubičasta</option>
+      </select>
+    </label>
+    <button type="submit">Generiši pregled</button>
+  </form>
+  <div id="preview"></div>
+</body>
+</html>
